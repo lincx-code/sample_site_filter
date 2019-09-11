@@ -119,7 +119,10 @@ ul.filters li a {
     width: 100px;
     text-align: center;
 }
-
+ul.filters li a.active {
+    background: #777777;
+    color: #ffffff;
+}
 .news-container {
     margin-bottom: 25px;
     clear: both;

@@ -11,7 +11,12 @@ $(document).ready(function ($) {
 			//display all news block
 			$('.news-block').hide();
 			$('.news-block').showArticle();
+			$('a[id^=filter_]').removeClass('active');
+			$(this).addClass('active');
 		} else {
+			$('a[id^=filter_]').removeClass('active');
+			$(this).addClass('active');
+
 			//display selected blocks
 			$('.news-block').hide();
 
