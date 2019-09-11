@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+/* ======================================================
+RESET DEFAULT STYLES
+====================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, main, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ======================================================
+BASICS
+====================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+html, body {
+    width: 100%;
+    min-width: 300px;
+    background: #ffffff;
+    color: #555555;
+    font-size: 1rem;
+    font-family: 'Roboto-Regular', Arial, Verdana, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    z-index: 999;
+}
+p {
+    margin-bottom: 15px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover {
+	color: #2c99ed;
+}
+h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+h2 {
+    font-size: 2rem;
+    margin: 15px 0;
+}
+h2 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+/* ======================================================
+CONTAINERS
+====================================================== */
+.main-container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+
+/* ======================================================
+PAGE STYLES
+====================================================== */
+.filters-container {
+    margin-bottom: 25px;
+    clear: both;
+    overflow: hidden;
+}
+ul.filters {
+    font-size: 90%;
+}
+ul.filters li {
+    padding-top: 10px;
+    padding-right: 15px;
+    float: left;
+}
+ul.filters li:last-of-type {
+    padding-right: 0;
+}
+ul.filters li a {
+    background: #efefef;
+    color: #333333;
+    padding: 5px;
+    border-radius: 20px;
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+
+.news-container {
+    margin-bottom: 25px;
+    clear: both;
+    overflow: hidden;
+}
+.news-block {
+    width: 30%;
+    height: 380px;
+    float: left;
+    padding: 15px 0;
+    margin: 15px;
+    background-color: #f7f7f7;
+}
+.news-block h3 {
+    font-size: 120%;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.news-block img {
+    width: 100%;
+    height: auto;
+}
+.news-block .description {
+    font-size: 85%;
+    padding-top: 15px;
+    line-height: 120%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.news-block .date{
+    font-size: 75%;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
